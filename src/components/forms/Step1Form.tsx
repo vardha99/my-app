@@ -7,7 +7,7 @@ import {
 } from "@salt-ds/core";
 import React from "react";
 import { useForm } from "react-hook-form";
-import { TextInput } from "./InputComponents";
+import { TextInput } from "../../reusableComponents/InputComponents";
 
 const Step1Form: React.FC<{ goToNextStep: () => void }> = ({
   goToNextStep,

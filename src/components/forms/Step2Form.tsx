@@ -1,7 +1,7 @@
 import { Button, FlexLayout, H2 } from '@salt-ds/core';
 import React from 'react'
 import { useForm } from 'react-hook-form';
-import { TextInput } from './InputComponents';
+import { TextInput } from '../../reusableComponents/InputComponents';
 
 const Step2Form: React.FC<{ goToNextStep: () => void, goToPreviousStep: ()=> void }> = ({ goToNextStep, goToPreviousStep }) => {
     const {

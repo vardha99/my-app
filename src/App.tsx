@@ -6,7 +6,7 @@ import {
   Input,
 } from "@salt-ds/core";
 import React from "react";
-import { ReusableAccordion } from "./components/Accordian";
+import { ReusableAccordion } from "./reusableComponents/Accordian";
 import AgGrid from "./components/AgGrid";
 import { Route, Routes } from "react-router-dom";
 import UserDetails from "./components/UserDetails";
